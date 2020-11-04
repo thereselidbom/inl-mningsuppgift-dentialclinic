@@ -264,21 +264,23 @@ a:hover {
 
         /*Our Services*/
 
-        .services {
+        .ourservices {
+                display: flex;
+                justify-content: center;
             font-family: 'Roboto', sans-serif;
             background-color: #F7F7F7;
-        }
-
-        .services .ourservices {
-            display: flex;
-            justify-content: center;
             color: #363636
         }
 
         .services img {
+            width: 300px;
+        }
+
+        .linje {
             display: flex;
             justify-content: center;
-            width: 280px;
+            background-color: #F7F7F7;
+
         }
 
         .grid-container {
