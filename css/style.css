@@ -1,0 +1,379 @@
+/* mobile first */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+@import url(/colors.css);
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {   
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #626262
+}
+
+
+.container {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+a {
+    color: #2BAAEC;
+    text-decoration: none;
+    background-color: transparent;
+}
+  
+a:hover {
+    color: #25E6C8;
+}
+
+
+
+
+.bg-dark {
+   background: #333333;
+   color: #ffffff; 
+}
+
+.bg-light {
+    background: #f7f7f7;
+    color: #333333; 
+}
+
+.bg-gray {
+    background: #DEDEDE;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.76rem 2.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.btn-greenish {
+    color: #fff;
+    background-color: #25E6C8;
+    font-weight: bold;
+}
+
+.btn-greenish:hover {
+    cursor: pointer;
+    background-color: #2BAAEC;
+}
+
+.collapse:not(.show) {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+
+/*NAVBAR*/
+
+.navbar-top {
+    border-bottom: 1px solid #707070;
+
+}
+
+.navbar, .navbar-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.navbar .container, .navbar-top .container {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.navbar-top .container {
+    font-size: 0.8rem;
+}
+
+.navbar-top .container .hours {
+    color:#626262;
+}
+
+.navbar-top .container .hours i {
+    color: #2BAAEC;
+    margin-right: 0.5rem;
+    font-size: 1.2em;
+}
+
+.navbar-top .container .socialmedia a {
+    margin: 0 0.5rem;
+}
+
+.navbar {
+    margin: 1.2rem 0;
+}
+
+.navbar-brand {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: black;
+    margin-right: 1rem;  
+}
+
+.navbar-brand img {
+    height: 4rem;
+    margin-top: 0.5rem;
+}
+
+.navbar-toggler {
+    font-size: 2.5rem;
+    color:#2BAAEC;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.navbar-collapse {
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    color: #363636;
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    padding: 0;
+    text-decoration: none;
+}
+
+        /*SHOWCASE*/
+
+#showcase .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+}
+
+#showcase .container img {
+    display: none;
+}
+
+#showcase .container .content-box {
+    align-self: center;
+    color: #363636;
+    font-weight: 300;
+}
+
+.content-box .content h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.content-box .content p {
+    font-size: 0.9rem;
+}
+
+
+
+    /*ABOUT US*/
+
+
+
+#aboutUs .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+    background-image: url(images/placehold.man.png);
+}
+
+#aboutUs .container img {
+    width: 350px;
+}
+
+#aboutUs .content h1 {
+    color: #363636;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+#aboutUs .content p {
+    color: #363636;
+    font-family: 'Roboto', serif;
+    font-size: 0.8rem;
+    line-height: 1.1;
+}
+
+#aboutUs .content .text-box-1 {
+    display: flex;
+    justify-content: space-around;
+    color: #363636;
+    font-family: 'Roboto slab', serif;
+    font-size: 0.8rem;
+    line-height: 1.1;
+    align-self: center;
+    font-weight: 30;
+}
+
+#text-box-1 {
+        display: flex;
+        justify-content: space-around; 
+        color: #2BAAEC;
+    }
+
+    #text-box-2 {
+        display: flex;
+        justify-content: space-around;        
+        color: #626262;
+    }
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+
+
+        /*Our Services*/
+
+
+
+
+        /*APPOINTMENT*/
+
+
+#appointment {
+    background-color: #4EB4E8;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.overlay {
+    opacity: 80%;
+}
+
+.center-content {
+    display: block;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.btn1 {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.75rem 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.btn-white {
+    color: #2BAAEC;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+.btn-white:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+
+        /*FOOTER*/
+
+footer {
+    background-color:#2BAAEC ;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+        /*MEDIA QUARIES*/
+
+
+@media (min-width: 768px) {
+
+    .container {
+        max-width: 720px;
+    }
+    
+    .center-content {
+        display:flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+    }
+
+
+    .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+    
+    .collapse:not(.show) {
+        display: flex;
+    }
+
+    .container {
+        max-width: 720px;
+    }
+
+    #showcase .container .content-box img{
+        display: flex;
+    }
+
+  #aboutUs .container img {
+    width: 700px;
+}
+
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
