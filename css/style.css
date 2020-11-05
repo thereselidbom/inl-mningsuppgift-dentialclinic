@@ -224,26 +224,26 @@ a:hover {
     padding: 2rem;
 }
 
-#aboutUs .content1 h3 p{
+#aboutUs .content1 h3 {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         color: #363636;
         font-family: 'Roboto slab', serif;
-        font-size: 0.8rem;
-        line-height: 1.1;
         font-weight: 30;
-}
-
-#aboutUs .content1 h3 {
-        display: flex;
-        justify-content: space-between; 
-        font-family: 'Roboto slab', serif;
         font-size: 30px;
         color: #2BAAEC;
         padding: 0.4rem;
         margin: 0.4rem;
     }
+
+#aboutUs #text-box-1 .content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
 
 
 .d-flex {
@@ -257,16 +257,18 @@ a:hover {
 
 
         /*Our Services*/
+        #services {
+        background-color: #F7F7F7;
+        }
 
-        .ourservices {
+        #services .ourservices {
             display: flex;
             justify-content: center;
             font-family: 'Roboto', sans-serif;
-            background-color: #F7F7F7;
             color: #363636;
             margin: 2rem;
             border-bottom: 2px solid #25E6C8;
-            padding: 2rem;
+            padding: 0.1rem;
         }
 
         .grid-container {
@@ -285,6 +287,108 @@ a:hover {
             padding: 20px;
             font-size: 30px;
           }
+
+          .grid-container .box1 img{
+
+          }
+
+          .grid-container .box1 h1{
+            font-size: 22px;
+            color: #363636;
+
+
+        }
+
+        .grid-container .box1 p{
+            font-family: 'Roboto';
+            font-size: 18px;
+            color: #626262;
+        }
+
+        .grid-container .box2 img{
+
+        }
+
+        .grid-container .box2 h1{
+          font-size: 22px;
+          color: #363636;
+
+
+      }
+
+      .grid-container .box2 p{
+          font-family: 'Roboto';
+          font-size: 18px;
+          color: #626262;
+      }
+
+      .grid-container .box3 img{
+
+    }
+
+    .grid-container .box3 h1{
+      font-size: 22px;
+      color: #363636;
+
+
+  }
+
+  .grid-container .box3 p{
+      font-family: 'Roboto';
+      font-size: 18px;
+      color: #626262;
+  }
+
+  .grid-container .box4 img{
+
+}
+
+.grid-container .box4 h1{
+  font-size: 22px;
+  color: #363636;
+
+
+}
+
+.grid-container .box4 p{
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #626262;
+}
+
+.grid-container .box5 img{
+
+}
+
+.grid-container .box5 h1{
+  font-size: 22px;
+  color: #363636;
+
+
+}
+
+.grid-container .box5 p{
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #626262;
+}
+
+.grid-container .box6 img{
+
+}
+
+.grid-container .box6 h1{
+  font-size: 22px;
+  color: #363636;
+
+
+}
+
+.grid-container .box6 p{
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #626262;
+}
 
         /*APPOINTMENT*/
 
@@ -387,6 +491,13 @@ footer {
     background-color: #F7F7F7;
     padding: 10px;
   }
+
+  #aboutUs .content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
 
 }
 
