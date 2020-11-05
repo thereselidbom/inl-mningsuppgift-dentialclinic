@@ -6,6 +6,15 @@
     background-color: #DEDEDE;
 }
 
+.bg-light-grey {
+    background-color: #F7F7F7;
+}
+
 .text-white {
     color: #F3FBFF;
 }
+
+.text-black {
+    color: #626262
+}
+
